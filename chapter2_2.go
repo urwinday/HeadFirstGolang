@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main2() {
 	broken := "G# r#cks!"
 	replace := strings.NewReplacer("#", "o")
 	fixed := replace.Replace(broken)
