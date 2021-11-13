@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main3() {
 	fmt.Print("Enter a grade: ")          // запрашиваем значение
 	reader := bufio.NewReader(os.Stdin)   // чтение ввода с клавиатуры
 	input, err := reader.ReadString('\n') // читаем вводимые данные
